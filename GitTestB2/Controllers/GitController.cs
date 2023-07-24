@@ -10,9 +10,9 @@ namespace GitTestB2.Controllers
     {
         // GET: api/<GitController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public int Get()
         {
-            return new string[] { "value1", "value2" };
+            return 5;
         }
 
         // GET api/<GitController>/5
