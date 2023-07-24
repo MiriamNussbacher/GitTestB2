@@ -12,7 +12,7 @@ namespace GitTestB2.Controllers
         [HttpGet]
         public double Get()
         {
-            return 7.0;
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/<GitController>/5
