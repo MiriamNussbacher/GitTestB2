@@ -1,5 +1,6 @@
 namespace GitTestB2
 {
+    //comment
     public class WeatherForecast
     {
         public DateOnly Date { get; set; }
